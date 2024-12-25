@@ -1,0 +1,485 @@
+body
+{
+    overflow-x: hidden;
+}
+#nav li a
+{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.slider
+{
+    /* height: 500px; */
+    background-image: url('../images/slider.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.sldtxt>.title
+{
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 100px ;
+}
+.sldtxt>.para
+{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.view
+{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: orange;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 19px;
+   
+}
+
+.view:hover
+{
+   border: 1px solid orange;
+   color: orange;
+   background: none;
+}
+.col-sm-11>.course
+{
+    font-size: 35px;
+    font-weight: 500;
+    color: orange;
+}
+#ct1
+{
+    
+    height: 180px;
+    width: 320px;
+    background-image: url('../images/category.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: 0.5s ease;
+}
+#ct1:hover
+{
+    margin-top: -10px;
+}
+#ct1 div
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#ct2
+{
+    
+    height: 180px;
+    width: 320px;
+    background-image: url('../images/category1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    transition:  0.5s ease;
+}
+#ct2:hover
+{
+    margin-top: -10px;
+}
+#ct2 div
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#ct3
+{
+    
+    height: 180px;
+    width: 320px;
+    background-image: url('../images/category2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    transition:  0.5s ease;
+}
+#ct3:hover
+{
+    margin-top: -10px;
+}
+#ct3 div
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#ct4
+{
+    
+    height: 180px;
+    width: 320px;
+    background-image: url('../images/category3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    transition:  0.5s ease;
+}
+#ct4:hover
+{
+    margin-top: -10px;
+}
+#ct4 div
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#ct5
+{
+    
+    height: 180px;
+    width: 320px;
+    background-image: url('../images/courses5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    transition:  0.5s ease;
+}
+#ct5:hover
+{
+    margin-top: -10px;
+}
+#ct5 div
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#ct6
+{
+    
+    height: 180px;
+    width: 320px;
+    background-image: url('../images/courses7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    transition:  0.5s ease;
+}
+#ct6:hover
+{
+    margin-top: -10px;
+}
+#ct6 div
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#ct7
+{
+    
+    height: 180px;
+    width: 320px;
+    background-image: url('../images/courses8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    transition:  0.5s ease;
+}
+#ct7:hover
+{
+    margin-top: -10px;
+}
+#ct7 div
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#ct8
+{
+    
+    height: 180px;
+    width: 320px;
+    background-image: url('../images/courses1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    transition:  0.5s ease;
+}
+#ct8:hover
+{
+    margin-top: -10px;
+}
+#ct8 div
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.gap
+{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#tutor
+{
+    /* height: 500px; */
+  background-image: url('../images/category3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+#tutor .col-sm-12
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.tor
+{
+    font-size: 16px;
+    color: orange;
+    padding-top: 80px;
+}
+#tle
+{
+    font-size: 45px;
+    color: white;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.icon
+{
+    
+    /* mix-blend-mode: orange; */
+    /* margin: 30px 0px;*/
+    /* filter: sepia(100%)  saturate(0%) brightness(1000%) !important;  */
+}
+.icon::before
+{
+    background-color: rgba(255, 221, 0, 0.98);
+}
+#title
+{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    padding-top: 10px;
+}
+#pg
+{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.hov
+{
+    transition: 0.5s ease;
+}
+.hov:hover
+{
+    margin-top: -8px;
+}
+.hed
+{
+    font-weight: 700;
+}
+.edu
+{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(71, 71, 71);
+    line-height: 30px;
+}
+#course
+{
+    /* height: 500px; */
+    background-image: url('../images/course-bg-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#course .col-sm-12
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.card-text
+{
+    font-size: 22px;
+}
+.card-text:hover
+{
+    color: orange;
+    cursor: pointer;
+}
+.card
+{
+    position: relative;
+    transition: 0.5s ease;
+}
+.pos>span
+{
+    border:1px solid;
+    padding:15px;
+    background-color: orange;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    bottom: 190px;
+
+}
+.card:hover
+{
+    margin-top: -10px;
+}
+.card
+{
+    position: relative;
+}
+.high
+{
+    position: absolute;
+    left: 55px;
+    bottom: 100px;
+    width: 180px;
+    background-color: orange;
+    display: none;
+    transition: 0.5s ease;
+}
+.high ul li
+{
+list-style-type: none;
+display: inline;
+padding: 0px 8px;
+}
+.high ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.card:hover .high
+{
+    display: inline;
+    /* transform: rotate(90deg); */
+}
+#about
+{
+    height: 400px;
+    background-image: url('../images/edu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#about .col-sm-12
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#cont
+{
+    height: 400px;
+    background-image: url('../images/category.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#cont .col-sm-12
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.btn>input
+{
+    padding: 12px 40px;
+    background-color: orange;
+    border: none;
+    font-size: 20px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+.btn>input:hover
+{
+    background: none;
+    color: orange;
+   border: 1px solid orange;
+}
+#name
+{
+    background-color: rgb(247, 247, 247);
+}
+#login
+{
+    height: 400px;
+    background-image: url('../images/slider.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#login .col-sm-12
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.log
+{
+    background-color: orange;
+    color: white;
+}
+.forget
+{
+    text-decoration: none;
+    color: rgb(95, 94, 94);
+    font-size: 18px;
+}
+.forget:hover
+{
+    color: orange;
+}
+.foot ul  li
+{
+    list-style-type: none;
+    padding: 5px 5px;
+}
+.foot ul li a
+{
+    text-decoration: none;
+    color: white; 
+    font-size: 15px;
+}
+.foot ul li a:hover
+{
+  color: grey;
+}
